@@ -39,7 +39,10 @@ public class WordNetHelper {
               IWord word = dict.getWord(wordID);
               ISynset synset = word.getSynset();
               for (IWord w : synset.getWords()) {
-                words.add(w.getLemma());
+                String lemma = w.getLemma();
+                for(String split: lemma.split("_")) {
+                  words.add(split);
+                }
               }
             }
           }
