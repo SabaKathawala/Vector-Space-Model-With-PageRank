@@ -3,23 +3,25 @@
 
 ### How to run the project
 
-Follow the below steps for running on MACs
+Follow below steps for running on MACs
 
 -> Download Apache Maven: https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz
+
 -> Install node.js and npm: https://www.npmjs.com/get-npm
+
 -> Install Brew: https://brew.sh/
 
 ### Install MVN
 -> Open terminal
--> Run the below commands (Path: Apache Maven .tar file location)
+-> Run below commands (Path: Apache Maven .tar file location)
 ```
 cd Path
 tar xzvf apache-maven-3.6.0-bin.tar.gz
 pwd
 ```
--> Copy the output of pwd in a file and run the below command
+-> Copy the output of pwd in a file and run below command
 ```
-export PATH=copied path/bin:$PATH
+export PATH=copied_path/bin:$PATH
 mvn -v
 ```
 -> You should see your mvn version info
@@ -63,6 +65,6 @@ mvn spring-boot:run
 ```
 -> Open a browser
 -> In the address bar type: localhost:8080
-### Application starts
+-> Application starts
 
 
