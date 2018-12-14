@@ -1,4 +1,68 @@
-### Vector-Space-Model-With-PageRank
-##CS 582 Final Project
+# Vector-Space-Model-With-PageRank
+## CS 582 Final Project
 
-# How to run the project
+### How to run the project
+
+Follow the below steps for running on MACs
+
+-> Download Apache Maven: https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz
+-> Install node.js and npm: https://www.npmjs.com/get-npm
+-> Install Brew: https://brew.sh/
+
+### Install MVN
+-> Open terminal
+-> Run the below commands (Path: Apache Maven .tar file location)
+```
+cd Path
+tar xzvf apache-maven-3.6.0-bin.tar.gz
+pwd
+```
+-> Copy the output of pwd in a file and run the below command
+```
+export PATH=copied path/bin:$PATH
+mvn -v
+```
+-> You should see your mvn version info
+-> Note that you will need to run the "export" command every time if using mvn commands in a new terminal
+
+#### Installing Redis
+-> Open a new terminal tab 
+-> run the below command
+```
+brew install redis
+```
+-> Download Redis dump file from: https://drive.google.com/open?id=1D4dp2kEcrHXAsIIZKFkwwPu1M-8AYZ1H
+### Very Important
+-> Open file /usr/local/etc/redis.conf in a notepad
+-> Search for dbfilename and move to the line dir /data/mydirectory/
+-> Change this path to the location where you downloaded the dump.rdb file(Redis dump file)
+-> if you change the filename, then update the name next to dbfilename
+```
+# The filename where to dump the DB
+dbfilename mydump.rdb (Put your dump file name here in place of mydump.rdb)
+
+# The working directory.
+#
+# The DB will be written inside this directory, with the filename specified
+# above using the 'dbfilename' configuration directive.
+# 
+# Also the Append Only File will be created inside this directory.
+# 
+# Note that you must specify a directory here, not a file name.
+dir /data/mydirectory/  (Put your dump file directory here in place of /data/mydirectory/)
+```
+-> Link for reference: https://stackoverflow.com/questions/14497234/how-to-recover-redis-data-from-snapshotrdb-file-copied-from-another-machine
+-> Now start the server. Wait till it says Ready to accept connections
+```
+redis-server
+```
+-> In this first terminal window, run the below commands
+```
+git clone https://github.com/SabaKathawala/Vector-Space-Model-With-PageRank.git
+mvn spring-boot:run
+```
+-> Open a browser
+-> In the address bar type: localhost:8080
+### Application starts
+
+
