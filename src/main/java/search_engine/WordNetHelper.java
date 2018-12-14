@@ -30,7 +30,7 @@ public class WordNetHelper {
 
       IStemmer stemmer = new WordnetStemmer(dict);
       for(String term: query.split("\\s+")) {
-        words.add(term);
+        words.add(term.toLowerCase());
         List<String> stems = stemmer.findStems(term, POS.NOUN);
         for (String stem : stems) {
           IIndexWord idxWord = dict.getIndexWord(stem, POS.NOUN);
