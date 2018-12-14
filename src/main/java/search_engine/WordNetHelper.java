@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Set;
 
 public class WordNetHelper {
-  public static final String WORDNET_PATH = "WordNet-3.0/dict";
+  public static final String WORDNET_PATH = "/WordNet-3.0/dict";
 
   public static String getExpandedQuery(String query) {
     Set<String> words = new HashSet<>();
