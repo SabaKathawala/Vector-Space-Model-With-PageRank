@@ -36,8 +36,11 @@ brew install redis
 -> Download Redis dump file from: https://drive.google.com/open?id=1D4dp2kEcrHXAsIIZKFkwwPu1M-8AYZ1H
 ### Very Important
 -> Open file /usr/local/etc/redis.conf in a notepad
+
 -> Search for dbfilename and move to the line dir /data/mydirectory/
+
 -> Change this path to the location where you downloaded the dump.rdb file(Redis dump file)
+
 -> if you change the filename, then update the name next to dbfilename
 ```
 # The filename where to dump the DB
@@ -54,6 +57,7 @@ dbfilename mydump.rdb (Put your dump file name here in place of mydump.rdb)
 dir /data/mydirectory/  (Put your dump file directory here in place of /data/mydirectory/)
 ```
 -> Link for reference: https://stackoverflow.com/questions/14497234/how-to-recover-redis-data-from-snapshotrdb-file-copied-from-another-machine
+
 -> Now start the server. Wait till it says Ready to accept connections
 ```
 redis-server
@@ -63,7 +67,10 @@ redis-server
 git clone https://github.com/SabaKathawala/Vector-Space-Model-With-PageRank.git
 mvn spring-boot:run
 ```
+-> It will take around 5 minutes for the server to start the first time
+
 -> Open a browser
+
 -> In the address bar type: localhost:8080
 -> Application starts
 
