@@ -38,7 +38,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<section>\n  <h1 style=\"text-align:center\">IR Final Project - {{title}}!</h1>\n  <div class=\"container\">\n\n    <div class=\"row\">\n      <div class=\"col-md-offset-4 col-md-4\">\n        <h3>{{greeting.content}}</h3>\n        <input #query (keyup.enter)=\"queryFromServer(query.value)\">\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-offset-1 col-md-2\">\n        <button (click)=\"queryFromServer(query.value, 'Tfidf');\">Only Tfidf</button>\n      </div>\n      <div class=\"col-md-2\">\n        <button (click)=\"queryFromServer(query.value, 'PageRank');\">Tfidf with PageRank</button>\n      </div>\n      <div class=\"col-md-2\">\n        <button (click)=\"queryFromServer(query.value, 'QD-PageRank');\">QD-PageRank</button>\n      </div>\n      <div class=\"col-md-2\">\n      <button (click)=\"queryFromServer(query.value, 'Query-Expansion-Tfidf');\">Tfidf with Query Expansion</button>\n    </div>\n    <div class=\"col-md-2\">\n      <button (click)=\"queryFromServer(query.value, 'Query-Expansion-QD');\">QD-PageRank with Query Expansion</button>\n    </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-offset-4 col-md-4\">\n         <h2>{{results.length}} total results found</h2>\n      </div>\n    </div>\n    <!-- items being paged -->\n    <div *ngFor=\"let item of pagedItems\">\n      {{item.title}} :: <a href=\"{{item.address}}\">{{item.address}}</a>\n      <hr/>\n    </div>\n\n    <!-- pager -->\n    <ul *ngIf=\"pager.pages && pager.pages.length\" class=\"pagination\">\n      <li [ngClass]=\"{disabled:pager.currentPage === 1}\">\n        <a (click)=\"setPage(1)\">First</a>\n      </li>\n      <li [ngClass]=\"{disabled:pager.currentPage === 1}\">\n        <a (click)=\"setPage(pager.currentPage - 1)\">Previous</a>\n      </li>\n      <li *ngFor=\"let page of pager.pages\" [ngClass]=\"{active:pager.currentPage === page}\">\n        <a (click)=\"setPage(page)\">{{page}}</a>\n      </li>\n      <li [ngClass]=\"{disabled:pager.currentPage === pager.totalPages}\">\n        <a (click)=\"setPage(pager.currentPage + 1)\">Next</a>\n      </li>\n      <li [ngClass]=\"{disabled:pager.currentPage === pager.totalPages}\">\n        <a (click)=\"setPage(pager.totalPages)\">Last</a>\n      </li>\n    </ul>\n  </div>\n</section>\n"
+module.exports = "<section>\n  <h1 style=\"text-align:center\">IR Final Project - Saba Kathawala - 650408125!</h1>\n  <div class=\"container\">\n\n    <div class=\"row\">\n      <div class=\"col-md-offset-4 col-md-4\">\n        <h2>Type your query</h2>\n        <h3>{{greeting.content}}</h3>\n        <input style=\"border:solid 2px black;width:200px;\" #query (keyup.enter)=\"queryFromServer(query.value)\">\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-offset-1 col-md-2\">\n        <button (click)=\"queryFromServer(query.value, 'Tfidf');\">Only Tfidf</button>\n      </div>\n      <div class=\"col-md-2\">\n        <button (click)=\"queryFromServer(query.value, 'PageRank');\">Tfidf with PageRank</button>\n      </div>\n      <div class=\"col-md-2\">\n        <button (click)=\"queryFromServer(query.value, 'QD-PageRank');\">QD-PageRank</button>\n      </div>\n      <div class=\"col-md-2\">\n        <button (click)=\"queryFromServer(query.value, 'Query-Expansion-Tfidf');\">Tfidf with Query Expansion</button>\n      </div>\n      <div class=\"col-md-2\">\n        <button (click)=\"queryFromServer(query.value, 'Query-Expansion-QD');\">QD-PageRank with Query Expansion</button>\n      </div>\n    </div>\n\n    <div *ngIf=\"isLoading\">\n      <h2>Loading....</h2>\n    </div>\n\n    <div *ngIf=\"!isLoading\">\n      <div class=\"row\">\n        <div class=\"col-md-offset-4 col-md-4\">\n          <h2>{{results.length}} total results found</h2>\n        </div>\n      </div>\n      <!-- items being paged -->\n      <div *ngFor=\"let item of pagedItems\">\n        {{item.title}} :: <a href=\"{{item.address}}\">{{item.address}}</a>\n        <hr/>\n      </div>\n\n      <!-- pager -->\n      <ul *ngIf=\"pager.pages && pager.pages.length\" class=\"pagination\">\n        <li [ngClass]=\"{disabled:pager.currentPage === 1}\">\n          <a (click)=\"setPage(1)\">First</a>\n        </li>\n        <li [ngClass]=\"{disabled:pager.currentPage === 1}\">\n          <a (click)=\"setPage(pager.currentPage - 1)\">Previous</a>\n        </li>\n        <li *ngFor=\"let page of pager.pages\" [ngClass]=\"{active:pager.currentPage === page}\">\n          <a (click)=\"setPage(page)\">{{page}}</a>\n        </li>\n        <li [ngClass]=\"{disabled:pager.currentPage === pager.totalPages}\">\n          <a (click)=\"setPage(pager.currentPage + 1)\">Next</a>\n        </li>\n        <li [ngClass]=\"{disabled:pager.currentPage === pager.totalPages}\">\n          <a (click)=\"setPage(pager.totalPages)\">Last</a>\n        </li>\n      </ul>\n    </div>\n  </div>\n</section>\n"
 
 /***/ }),
 
@@ -71,12 +71,14 @@ var AppComponent = (function () {
         this.pagerService = pagerService;
         this.title = 'Saba Kathawala - 650408125';
         this.greeting = {};
+        this.isLoading = false;
         // pager object
         this.pager = {};
         http.get('resource').subscribe(function (data) { return _this.greeting = data; });
     }
     AppComponent.prototype.queryFromServer = function (query, type) {
         var _this = this;
+        this.isLoading = true;
         if (query === '') {
             // handle this
             return;
@@ -86,6 +88,7 @@ var AppComponent = (function () {
             _this.greeting = res;
             _this.results = res['results'];
             _this.setPage(1);
+            _this.isLoading = false;
         });
     };
     AppComponent.prototype.setPage = function (page) {

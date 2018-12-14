@@ -11,6 +11,7 @@ import 'rxjs/add/operator/map'
 export class AppComponent {
   title = 'Saba Kathawala - 650408125';
   greeting = {};
+  isLoading = false;
 
     private results: any[];
     // pager object
@@ -23,6 +24,7 @@ export class AppComponent {
     }
 
     queryFromServer(query: string, type: string){
+      this.isLoading = true;
       if (query === '') {
         // handle this
         return;
@@ -33,6 +35,7 @@ export class AppComponent {
         this.greeting = res;
         this.results = res['results'];
         this.setPage(1);
+        this.isLoading = false;
       });
     }
 

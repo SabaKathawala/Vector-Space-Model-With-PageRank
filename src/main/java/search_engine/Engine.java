@@ -83,7 +83,7 @@ public class Engine {
     Set<String> rankedDocuments = getRankedDocuments(relevantDocuments, 200, false, null);
     Map<String, Double> topicalPageRank = Scorer.topicalPageRank(graph, rankedDocuments, 0.85, tokens);
     //System.out.println(rankDocuments(topicalPageRank));
-    return getRankedDocuments(topicalPageRank, 50, true, query);
+    return getRankedDocuments(topicalPageRank, 200, true, query);
   }
 
   private static Map<String, Links> createGraph(RedisHelper redisHelper, Set<String> crawledLinks) {

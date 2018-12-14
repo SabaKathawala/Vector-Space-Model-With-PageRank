@@ -2,218 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b12229-d3d9-4ec2-8adc-4ba7a9b66e3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/services/pager.services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/DataHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/FileFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/FileIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/Indexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/Links.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/Porter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/PreProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/RedisHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/Scorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/TextProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/ChangeLog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/INSTALL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/NEWS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/acinclude.m4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/aclocal.m4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/compile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/config.h.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/configure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/configure.ac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/depcomp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/adj.exc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/adv.exc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/cntlist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/cntlist.rev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/data.adj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/data.adv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/data.noun" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/data.verb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/frames.vrb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/index.adj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/index.adv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/index.noun" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/index.sense" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/index.verb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/lexnames" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/log.grind.3.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/noun.exc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/sentidx.vrb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/sents.vrb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/verb.Framestext" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/dict/verb.exc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/binsrch.3WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/cntlist.5WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/grind.1WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/lexnames.5WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/morph.3WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/morphy.7WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/prologdb.5WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/senseidx.5WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/uniqbeg.7WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wn.1WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnb.1WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wndb.5WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wngloss.7WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wngroups.7WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wninput.5WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnintro.1WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnintro.3WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnintro.5WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnintro.7WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnlicens.7WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnpkgs.7WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnsearch.3WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnstats.7WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/html/wnutil.3WN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/binsrch.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/cntlist.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/grind.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/lexnames.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/morph.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/morphy.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/prologdb.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/senseidx.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/uniqbeg.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wn.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnb.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wndb.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wngloss.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wngroups.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wninput.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnintro.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnintro.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnintro.5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnintro.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnlicens.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnpkgs.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnsearch.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnstats.7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/man/wnutil.3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/binsrch.3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/cntlist.5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/grind.1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/lexnames.5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/morph.3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/morphy.7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/prologdb.5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/senseidx.5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/uniqbeg.7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wn.1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnb.1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wndb.5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wngloss.7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wngroups.7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wninput.5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnintro.1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnintro.3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnintro.5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnintro.7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnlicens.7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnpkgs.7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnsearch.3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnstats.7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/pdf/wnutil.3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/binsrch.3.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/cntlist.5.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/grind.1.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/lexnames.5.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/morph.3.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/morphy.7.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/prologdb.5.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/senseidx.5.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/uniqbeg.7.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wn.1.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnb.1.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wndb.5.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wngloss.7.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wngroups.7.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wninput.5.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnintro.1.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnintro.3.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnintro.5.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnintro.7.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnlicens.7.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnpkgs.7.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnsearch.3.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnstats.7.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/doc/ps/wnutil.3.ps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/tk/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/tk/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/tk/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/tk/tk.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/tk/tkDecls.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/wn.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/include/wngrind.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/install-sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/binsrch.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/morph.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/search.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnglobal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnhelp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnres/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnres/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnres/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnres/wn.xbm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnres/wnb.man" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnres/wngloss.man" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnrtl.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/lib/wnutil.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/missing" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/src/Makefile.am" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/src/Makefile.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/src/stubs.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/src/tkAppInit.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/src/wn.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNet-3.0/src/wnb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/WordNetHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/search_engine/stopwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/less/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/protractor/node_modules/webdriver-manager/selenium/update-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/protractor/node_modules/webdriver-manager/selenium/update-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/UiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/UiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/search_engine/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/search_engine/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/search_engine/Scorer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/search_engine/Scorer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/search_engine/WordNetHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/search_engine/WordNetHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/main.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/main.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/polyfills.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/polyfills.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/styles.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/vendor.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/vendor.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -272,14 +72,46 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1854509751">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="86" />
+          <entry key="java" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="86" />
+          <entry key="JAVA" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+            <state relative-caret-position="274">
+              <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -287,32 +119,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/FileFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+            <state relative-caret-position="450">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/WordNetHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+            <state relative-caret-position="225">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -323,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Links.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="240">
               <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -335,7 +159,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/PreProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="720">
               <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
             </state>
           </provider>
@@ -344,7 +168,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Indexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
+            <state relative-caret-position="810">
               <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
             </state>
           </provider>
@@ -353,8 +177,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Scorer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+            <state relative-caret-position="501">
+              <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -362,7 +195,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/DataHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="510">
               <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -374,7 +207,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/RedisHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="60">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -418,7 +251,6 @@
         <option value="$PROJECT_DIR$/src/main/java/search_engine/TextProcessor.java" />
         <option value="$PROJECT_DIR$/src/app/services/index.ts" />
         <option value="$PROJECT_DIR$/src/app/services/pager.services.ts" />
-        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/main/java/demo/UiApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/RedisHelper.java" />
@@ -429,15 +261,16 @@
         <option value="$PROJECT_DIR$/src/main/java/search_engine/DataHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/Preprocessing.java" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/Links.java" />
-        <option value="$PROJECT_DIR$/src/main/java/search_engine/Scorer.java" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/PreProcessing.java" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/WordNetExample.java" />
-        <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/PageRank.java" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/FileFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/search_engine/Engine.java" />
         <option value="$PROJECT_DIR$/src/main/java/search_engine/WordNetHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/search_engine/Scorer.java" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/search_engine/Engine.java" />
+        <option value="$PROJECT_DIR$/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -450,70 +283,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootAngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootAngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootAngularJS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootAngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootAngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootAngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootAngularJS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootAngularJS" type="462c0819:PsiDirectoryNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Vector-Space-Model-With-PageRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="search_engine" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringBootAngularJS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -608,19 +422,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25894135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" weight="0.51566267" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -628,14 +439,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.51566267" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -704,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/UiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -764,15 +572,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="1842" selection-start-line="1842" selection-end-line="1842" />
-          <folding>
-            <element signature="e#62636#62637#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Crawled Links.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Crawled Links.txt" />
     <entry file="file://$PROJECT_DIR$/PageRank.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-178658" />
@@ -792,9 +595,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/PageRank.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/FileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Links.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/PreProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Indexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/DataHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="510">
           <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -802,16 +637,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Scorer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="58" column="66" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/RedisHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="60">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -825,70 +653,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/PreProcessing.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/WordNetHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Indexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Links.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="225">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/PageRank.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Scorer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="501">
+          <caret line="105" column="33" lean-forward="true" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/FileFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+        <state relative-caret-position="274">
+          <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/search_engine/WordNetHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+        <state relative-caret-position="450">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
