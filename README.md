@@ -65,6 +65,7 @@ redis-server
 -> In this first terminal window, run the below commands
 ```
 git clone https://github.com/SabaKathawala/Vector-Space-Model-With-PageRank.git
+cd path-to-the-cloned-repo
 mvn spring-boot:run
 ```
 -> It will take around 5 minutes for the server to start the first time
