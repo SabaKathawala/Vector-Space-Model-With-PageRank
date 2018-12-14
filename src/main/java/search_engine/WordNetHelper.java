@@ -19,11 +19,12 @@ public class WordNetHelper {
   public static final String WORDNET_PATH = "/WordNet-3.0/dict";
 
   public static String getExpandedQuery(String query) {
+    String pwd = System.getProperty("user.dir");
     Set<String> words = new HashSet<>();
     URL url=null;
     try {
-      url = new URL("file", null, WORDNET_PATH);
-
+      url = new URL("file", null, pwd+WORDNET_PATH);
+      System.out.println(pwd);
       IDictionary dict = new Dictionary(url);
       dict.open();
 
