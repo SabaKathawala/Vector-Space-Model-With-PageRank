@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Set;
 
 public class WordNetHelper {
-  public static final String WORDNET_PATH = "/WordNet-3.0/dict";
+  public static final String WORDNET_PATH = "/src/main/java/search_engine/WordNet-3.0/dict";
 
   public static String getExpandedQuery(String query) {
     String pwd = System.getProperty("user.dir");
