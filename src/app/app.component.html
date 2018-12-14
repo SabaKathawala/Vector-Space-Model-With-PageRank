@@ -1,12 +1,58 @@
-<div style="text-align:center"class="container">
-  <h1>
-    Saba's Project {{title}}!
-  </h1>
+<section>
+  <h1 style="text-align:center">IR Final Project - {{title}}!</h1>
   <div class="container">
-    <p><span>{{greeting.id}}</span></p>
-    <p><span>{{greeting.content}}</span></p>
-  </div>
-  <input #query (keyup.enter)="queryFromServer(query.value)">
-  <button (click)="queryFromServer(query.value); query.value=''">Query</button>
-</div>
 
+    <div class="row">
+      <div class="col-md-offset-4 col-md-4">
+        <h3>{{greeting.content}}</h3>
+        <input #query (keyup.enter)="queryFromServer(query.value)">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-2">
+        <button (click)="queryFromServer(query.value, 'Tfidf');">Only Tfidf</button>
+      </div>
+      <div class="col-md-2">
+        <button (click)="queryFromServer(query.value, 'PageRank');">Tfidf with PageRank</button>
+      </div>
+      <div class="col-md-2">
+        <button (click)="queryFromServer(query.value, 'QD-PageRank');">QD-PageRank</button>
+      </div>
+      <div class="col-md-2">
+      <button (click)="queryFromServer(query.value, 'Query-Expansion-Tfidf');">Tfidf with Query Expansion</button>
+    </div>
+    <div class="col-md-2">
+      <button (click)="queryFromServer(query.value, 'Query-Expansion-QD');">QD-PageRank with Query Expansion</button>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-4 col-md-4">
+         <h2>{{results.length}} total results found</h2>
+      </div>
+    </div>
+    <!-- items being paged -->
+    <div *ngFor="let item of pagedItems">
+      {{item.title}} :: <a href="{{item.address}}">{{item.address}}</a>
+      <hr/>
+    </div>
+
+    <!-- pager -->
+    <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+      <li [ngClass]="{disabled:pager.currentPage === 1}">
+        <a (click)="setPage(1)">First</a>
+      </li>
+      <li [ngClass]="{disabled:pager.currentPage === 1}">
+        <a (click)="setPage(pager.currentPage - 1)">Previous</a>
+      </li>
+      <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+        <a (click)="setPage(page)">{{page}}</a>
+      </li>
+      <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+        <a (click)="setPage(pager.currentPage + 1)">Next</a>
+      </li>
+      <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+        <a (click)="setPage(pager.totalPages)">Last</a>
+      </li>
+    </ul>
+  </div>
+</section>
