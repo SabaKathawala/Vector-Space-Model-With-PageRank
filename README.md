@@ -1,5 +1,8 @@
 # Vector-Space-Model-With-PageRank
-## CS 582 Final Project
+
+This project implements a search engine based on the combination of vector space model and PageRank. The system crawled and indexed 3000 web pages within the UIC domain. Pages were ranked using TF-IDF, PageRank, Query Expansion and combination of the three techniques. The combination was based on the QD- PageRank algorithm by Richardson and Domingos.
+
+For any given query, the candidate web pages were retrieved using vector-space model, and sorted based on a TF-IDF from vector-space model and PageRank scores. The system was designed and developed using different modules, consisting of crawler, text processor, indexer, scorer, and retrieval. A web interface allowed users to query the system using different ranking schemes. A comparison of different techniques was done by manual evaluation of five sample queries.
 
 ### How to run the project
 
